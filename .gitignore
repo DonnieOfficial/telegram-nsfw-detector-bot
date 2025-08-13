@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+secrets.ini
+
+# Logs
+*.log
+logs/
+!logs/.gitkeep
+
+# Redis
+dump.rdb
+
+# Database
+*.db
+*.sqlite
+postgres_data/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.DS_Store
+
+# Project Specific
+media/
+cache/
+
+# Telegram specific files
+bot.session
+webhook_cert.pem
+
+# Test data
+test_data/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/settings.json
