@@ -1,6 +1,6 @@
 from aiogram import Router
 
-from . import start, photo, text
+from . import start, photo, text, video
 
 
 def setup_routers() -> Router:
@@ -9,4 +9,5 @@ def setup_routers() -> Router:
     router.include_router(start.router)
     router.include_router(photo.router)
     router.include_router(text.router)
+    router.include_router(video.router)
     return router

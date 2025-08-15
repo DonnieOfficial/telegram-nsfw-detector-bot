@@ -9,6 +9,7 @@ class Config(BaseSettings):
 
     MAX_FILE_SIZE: int = 10 * 1024 * 1024
     MAX_TEXT_LENGTH: int = 2000
+    MAX_VIDEO_DURATION: int = 60
 
     model_config = SettingsConfigDict(
         env_file = Path(__file__).parent.parent.parent / ".env",
