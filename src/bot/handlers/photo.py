@@ -18,7 +18,7 @@ async def photo_handler(message: Message, nsfw_detector = NSFWDetector) -> None:
     file = await message.bot.get_file(photo.file_id)
     file_bytes = await message.bot.download_file(file.file_path)
 
-    result = await nsfw_detector.detect(image_bytes = file_bytes.read())
+    result = await nsfw_detector.detect_image(image_bytes = file_bytes.read())
 
     if result["is_nsfw"]:
         details = "\n".join([f"{k}: {v:.2%}" for k, v in result["details"].items()])
