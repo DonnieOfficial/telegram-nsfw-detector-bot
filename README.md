@@ -1,6 +1,8 @@
 # NSFW Content Detection Telegram Bot
 A smart Telegram bot designed to detect Not Safe For Work (NSFW) content in various message formats including text, images, stickers, emojis, and videos. The bot uses advanced machine learning models to analyze content and provide probability scores for different NSFW categories.
 
+![](./Preview.png)
+
 **Features:**
 - **Multi-format Support: Detects NSFW content in:**
     - Text messages;
